@@ -50,7 +50,7 @@ const App = () => {
             <p style={{ padding: '20px' }}>{book.description}</p>
 
           </div>
-          <p>{book.authors.map(author => author, ",")}</p>
+          <p>{book.authors.map(author => author + " ")}</p>
         </div>
       ))
     }
